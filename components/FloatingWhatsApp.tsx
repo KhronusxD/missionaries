@@ -8,7 +8,7 @@ export default function FloatingWhatsApp({ phone }: { phone: string }) {
   const opacity = useTransform(scrollY, [0, 300], [0, 1]);
 
   const msg = encodeURIComponent(
-    "Oi Myriam! Vi sua página e quero saber mais sobre a missão em Mossoró.",
+    "Oi Miriam! Vi sua página e quero saber mais sobre a missão em Mossoró.",
   );
 
   return (

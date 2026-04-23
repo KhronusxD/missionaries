@@ -96,6 +96,27 @@ body {
   background-repeat: no-repeat, repeat, repeat;
 }
 
+/* Grão otimizado para fundos ESCUROS — noise claro que aparece via screen blend */
+.paper-grain-on-dark {
+  background-image:
+    /* salpicos claros (fibras de papel contra tinta escura) */
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.4' numOctaves='2' stitchTiles='stitch' seed='9'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.95 0 0 0 0 0.82 0 0 0 0.55 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>"),
+    /* fibras longas horizontais claras */
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='500' height='500'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.012 0.7' numOctaves='2' stitchTiles='stitch' seed='4'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.92 0 0 0 0 0.75 0 0 0 0.35 0'/></filter><rect width='100%25' height='100%25' filter='url(%23f)'/></svg>"),
+    /* grânulos bem finos (poeira de tinta) */
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='s'><feTurbulence type='fractalNoise' baseFrequency='2.8' numOctaves='1' stitchTiles='stitch' seed='2'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.9 0 0 0 0 0.7 0 0 0 0.25 0'/></filter><rect width='100%25' height='100%25' filter='url(%23s)'/></svg>");
+  background-size: 260px 260px, 500px 500px, 180px 180px;
+  background-repeat: repeat, repeat, repeat;
+}
+
+/* Salpicos de tinta — pontinhos pretos irregulares (estilo spray de impressão) */
+.ink-spatter {
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='sp'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='1' stitchTiles='stitch' seed='11'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6'/></filter><rect width='100%25' height='100%25' filter='url(%23sp)'/></svg>");
+  background-size: 400px 400px;
+  background-repeat: repeat;
+}
+
 /* Sujeirinhas tipo mancha de café — use dentro de sections com position relative */
 .paper-stains::before {
   content: "";

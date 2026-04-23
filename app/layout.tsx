@@ -4,11 +4,11 @@ import SmoothScroll from "@/components/SmoothScroll";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export const metadata: Metadata = {
-  title: "Raízes do Sertão — Myriam Arruda, Missionária em Mossoró",
+  title: "Raízes do Sertão — Miriam Arruda, Missionária em Mossoró",
   description:
     "De Manaus para Mossoró em 24 de maio. Sustente essa missão no coração do semiárido nordestino. Seja um mantenedor fixo.",
   openGraph: {
-    title: "Raízes do Sertão — Myriam Arruda",
+    title: "Raízes do Sertão — Miriam Arruda",
     description:
       "Deus me chamou. E eu disse sim. Apoie a missão em Mossoró/RN.",
     type: "website",

@@ -37,7 +37,7 @@ export default function Sustento() {
   const percentage = Math.round((RAISED / META) * 100);
 
   const waMsg = encodeURIComponent(
-    `Oi Myriam! Quero ser mantenedor da missão em Mossoró com ${
+    `Oi Miriam! Quero ser mantenedor da missão em Mossoró com ${
       selected === "custom" ? "um valor personalizado" : `R$ ${selected}/mês`
     }.`,
   );
@@ -49,7 +49,7 @@ export default function Sustento() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("chave-pix-da-myriam@email.com");
+      await navigator.clipboard.writeText("chave-pix-da-miriam@email.com");
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {}
@@ -61,8 +61,11 @@ export default function Sustento() {
       id="sustento"
       className="paper-stains relative overflow-hidden bg-blue-deep py-28 text-cream md:py-36"
     >
-      <div className="paper-grain-heavy absolute inset-0 opacity-60" />
-      <div className="halftone-ochre absolute inset-0 opacity-[0.06]" />
+      <div className="paper-grain-heavy absolute inset-0 mix-blend-multiply opacity-80" />
+      <div className="paper-grain-on-dark absolute inset-0 mix-blend-screen opacity-50" />
+      <div className="halftone-ochre absolute inset-0 mix-blend-screen opacity-[0.14]" />
+      <div className="halftone-dots-lg absolute inset-0 mix-blend-multiply opacity-[0.12]" />
+      <div className="ink-spatter absolute inset-0 mix-blend-multiply opacity-35" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(242,169,30,0.14),transparent_55%)]" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6">
@@ -256,7 +259,7 @@ export default function Sustento() {
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 Nome
               </span>
-              <span>Myriam Arruda</span>
+              <span>Miriam Arruda</span>
             </div>
             <div className="grid grid-cols-[90px_1fr] items-center gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
@@ -273,7 +276,7 @@ export default function Sustento() {
           </p>
 
           <a
-            href="https://wa.me/5500000000000?text=Oi%20Myriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
+            href="https://wa.me/5500000000000?text=Oi%20Miriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
             target="_blank"
             rel="noopener"
             className="mt-6 flex w-full items-center justify-center gap-2 border-2 border-[#128c3f] bg-[#25d366] px-6 py-4 text-center font-bold uppercase tracking-wider text-white shadow-[0_4px_0_#128c3f] transition-all hover:-translate-y-0.5 hover:bg-[#2fe373] hover:shadow-[0_6px_0_#128c3f]"

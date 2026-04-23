@@ -37,9 +37,24 @@ export default function Hero() {
             "radial-gradient(ellipse at 50% 90%, #e8591a 0%, #c94a1f 35%, #a6371a 62%, #7a2815 90%, #4a1608 100%)",
         }}
       />
-      <div className="paper-grain-heavy absolute inset-0 mix-blend-multiply opacity-70" />
-      {/* Halftone overlay — vibe impressão */}
-      <div className="halftone-dots-lg absolute inset-0 opacity-[0.08] mix-blend-multiply" />
+
+      {/* Camada 1 — grão escuro (aparece nas áreas mais claras do gradiente) */}
+      <div className="paper-grain-heavy absolute inset-0 mix-blend-multiply opacity-85" />
+
+      {/* Camada 2 — fibras CLARAS via screen (aparece nas áreas escuras, como topo) */}
+      <div className="paper-grain-on-dark absolute inset-0 mix-blend-screen opacity-55" />
+
+      {/* Camada 3 — halftone em tinta escura (retícula de impressão) */}
+      <div className="halftone-dots-lg absolute inset-0 mix-blend-multiply opacity-[0.18]" />
+
+      {/* Camada 4 — halftone claro (ponto ocre sobre áreas escuras) */}
+      <div className="halftone-ochre absolute inset-0 mix-blend-screen opacity-[0.12]" />
+
+      {/* Camada 5 — crosshatch xilogravura */}
+      <div className="crosshatch absolute inset-0 mix-blend-multiply opacity-[0.07]" />
+
+      {/* Camada 6 — salpicos de tinta */}
+      <div className="ink-spatter absolute inset-0 mix-blend-multiply opacity-40" />
 
       {/* Sun — canto superior direito, estilo cartaz */}
       <motion.div

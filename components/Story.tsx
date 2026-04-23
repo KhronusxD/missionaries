@@ -29,7 +29,7 @@ export default function Story() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="ink-bleed mb-16 text-center font-[var(--font-display)] text-4xl leading-[1.05] tracking-tight text-terracota-dk md:text-6xl"
         >
-          Quem é Myriam Arruda
+          Quem é Miriam Arruda
         </motion.h2>
 
         <div className="grid items-start gap-12 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.2fr)] md:gap-16">
@@ -45,7 +45,7 @@ export default function Story() {
               <div className="absolute inset-0" style={{ filter: "url(#rough-edge)" }}>
                 <Image
                   src="/fotos/IMG_1366.jpg"
-                  alt="Myriam Arruda"
+                  alt="Miriam Arruda"
                   fill
                   priority
                   sizes="(max-width: 768px) 90vw, 40vw"
@@ -85,7 +85,7 @@ export default function Story() {
               transition={{ delay: 0.8, duration: 1 }}
               className="mt-5 text-center font-[var(--font-hand)] text-2xl text-terracota-dk"
             >
-              Myriam Arruda
+              Miriam Arruda
             </motion.p>
           </motion.div>
 
@@ -98,7 +98,7 @@ export default function Story() {
             className="space-y-5 text-lg leading-[1.75]"
           >
             <motion.p variants={fadeUp} className="drop-cap">
-              Meu nome é <strong>Myriam Arruda</strong>. Nasci em Manaus, e foi
+              Meu nome é <strong>Miriam Arruda</strong>. Nasci em Manaus, e foi
               aqui, no meio da Amazônia, que o Senhor começou a me preparar para
               algo maior do que eu mesma conseguia enxergar.
             </motion.p>

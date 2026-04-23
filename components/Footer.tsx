@@ -10,7 +10,7 @@ export default function Footer() {
 
       <div className="relative z-10 mx-auto mt-12 max-w-xl px-6">
         <p className="font-[var(--font-display)] text-2xl text-ochre md:text-3xl">
-          Myriam Arruda
+          Miriam Arruda
         </p>
         <p className="mt-1 text-sm italic md:text-base">
           Missionária em Mossoró/RN
@@ -30,7 +30,7 @@ export default function Footer() {
           </a>
           <span className="text-kraft-shade">·</span>
           <a
-            href="https://instagram.com/myriamarruda"
+            href="https://instagram.com/miriamarruda"
             target="_blank"
             rel="noopener"
             className="border-b border-ochre/30 pb-0.5 font-semibold text-ochre transition-colors hover:border-ochre"

@@ -27,7 +27,12 @@ export default function Closing() {
               "radial-gradient(ellipse at 50% 40%, #7a2815 0%, #4a1608 70%, #2d0a04 100%)",
           }}
         />
-        <div className="paper-grain-heavy absolute inset-0 opacity-70" />
+        <div className="paper-grain-heavy absolute inset-0 mix-blend-multiply opacity-80" />
+        <div className="paper-grain-on-dark absolute inset-0 mix-blend-screen opacity-55" />
+        <div className="halftone-dots-lg absolute inset-0 mix-blend-multiply opacity-[0.16]" />
+        <div className="halftone-ochre absolute inset-0 mix-blend-screen opacity-[0.1]" />
+        <div className="crosshatch absolute inset-0 mix-blend-multiply opacity-[0.08]" />
+        <div className="ink-spatter absolute inset-0 mix-blend-multiply opacity-40" />
       </motion.div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-6">

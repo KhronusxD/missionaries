@@ -29,7 +29,7 @@ export default function Prayer() {
     const email = data.get("email");
 
     const msg = encodeURIComponent(
-      `Olá Myriam! Quero orar por você e acompanhar a missão em Mossoró.\n\n` +
+      `Olá Miriam! Quero orar por você e acompanhar a missão em Mossoró.\n\n` +
         `Nome: ${nome}\nWhatsApp: ${whatsapp}\nE-mail: ${email}\n\n` +
         `Pode me incluir na sua lista? 🙏`,
     );
@@ -129,7 +129,7 @@ export default function Prayer() {
             onClick={() => setShowForm(true)}
             className="group inline-flex items-center gap-3 border-2 border-ink bg-ochre px-8 py-4 font-bold uppercase tracking-wider text-ink shadow-[0_5px_0_#a6371a] transition-all hover:-translate-y-0.5 hover:bg-[#ffbe2a] hover:shadow-[0_7px_0_#a6371a]"
           >
-            Quero receber as atualizações e orar por Myriam
+            Quero receber as atualizações e orar por Miriam
             <span className="transition-transform group-hover:translate-x-1">
               →
             </span>
