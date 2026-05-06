@@ -29,7 +29,7 @@ export default function Story() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="ink-bleed mb-16 text-center font-[var(--font-display)] text-4xl leading-[1.05] tracking-tight text-terracota-dk md:text-6xl"
         >
-          Quem é Miriam Arruda
+          Um pouco sobre mim
         </motion.h2>
 
         <div className="grid items-start gap-12 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.2fr)] md:gap-16">
@@ -44,7 +44,7 @@ export default function Story() {
             <div className="relative aspect-[4/5] overflow-hidden border-[3px] border-ink bg-kraft-deep shadow-[8px_8px_0_#a6371a]">
               <div className="absolute inset-0" style={{ filter: "url(#rough-edge)" }}>
                 <Image
-                  src="/fotos/IMG_1366.jpg"
+                  src="/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03 (2).jpeg"
                   alt="Miriam Arruda"
                   fill
                   priority
@@ -98,15 +98,46 @@ export default function Story() {
             className="space-y-5 text-lg leading-[1.75]"
           >
             <motion.p variants={fadeUp} className="drop-cap">
-              Meu nome é <strong>Miriam Arruda</strong>. Nasci em Manaus, e foi
-              aqui, no meio da Amazônia, que o Senhor começou a me preparar para
-              algo maior do que eu mesma conseguia enxergar.
+              Me chamo <strong>Miriam</strong>. Nasci em Manaus, no coração da
+              Amazônia, onde o Senhor começou a me preparar para algo maior do
+              que eu podia imaginar. Ainda criança, meu coração foi incendiado
+              pelo desejo de proclamar o Evangelho — começando com amigos no
+              meu bairro, na escola, nas comunidades ribeirinhas, com pessoas
+              em situação de rua e servindo na minha igreja local.
             </motion.p>
             <motion.p variants={fadeUp}>
-              Durante anos, o chamado missionário foi crescendo dentro de mim
-              como um fogo que não se apaga. Orei. Chorei. Resisti. Me entreguei.
-              E, depois de muito tempo diante de Deus, a resposta veio clara:{" "}
-              <strong>Mossoró.</strong>
+              Ao entrar na <strong>Missão Paixão e Compaixão</strong>, em 2019,
+              fui inserida na <em>Sala de Oração Selah</em>, um ambiente de
+              oração coletiva onde o Senhor me moldou junto com os meus irmãos.
+              Na época, eu não compreendia o quanto esse lugar seria vital para
+              meu envio.
+            </motion.p>
+            <motion.p variants={fadeUp}>
+              Passaram-se os anos e aquela chama parecia estar se extinguindo.
+              Pensei que seria apenas uma missionária intercessora, até que, em
+              2024, o Senhor me conduziu à <strong>EMA — Escola de Missões e
+              Avivamento</strong>. Isso estava fora dos meus planos, mas Ele me
+              guiou graciosamente, mesmo em meio a dificuldades familiares e
+              limitações financeiras, me ensinando a confiar que Seus caminhos
+              são mais altos que os meus.
+            </motion.p>
+            <motion.p variants={fadeUp}>
+              Amante de cactos <em>(risos)</em>, iniciei a escola sabendo que
+              meu prático seria no sertão. Sem revelações, apenas sentia que
+              era ali que deveria ir — e o Senhor abriu as portas para isso.
+            </motion.p>
+            <motion.p variants={fadeUp}>
+              Chegando em <strong>Mossoró</strong>, meu coração foi tocado pela
+              presença de Jesus nas comunidades — no olhar das crianças, em
+              conversas simples com mulheres, na generosidade de pessoas que,
+              mesmo com pouco, dão tudo o que têm. As lágrimas foram
+              inevitáveis. Queria ficar, mas entendi que era tempo de espera,
+              alinhamento e de submeter meu coração ao teste do tempo, junto à
+              minha liderança e minha família espiritual.
+            </motion.p>
+            <motion.p variants={fadeUp}>
+              Agora, quase dois anos depois, sinto o Senhor me impulsionando
+              novamente para o campo.
             </motion.p>
 
             <motion.blockquote
@@ -115,9 +146,9 @@ export default function Story() {
             >
               <span className="absolute -top-3 left-5 h-6 w-6 rotate-45 border-2 border-ink bg-ochre" />
               <p className="text-[1.05rem] leading-[1.6]">
-                &ldquo;Então ouvi a voz do Senhor, que dizia: A quem enviarei, e
-                quem há de ir por nós? Então disse eu: Eis-me aqui, envia-me a
-                mim.&rdquo;
+                &ldquo;Então ouvi a voz do Senhor, que dizia: &lsquo;A quem
+                enviarei, e quem há de ir por nós?&rsquo; Então disse eu:
+                &lsquo;Eis-me aqui, envia-me a mim.&rsquo;&rdquo;
               </p>
               <cite className="mt-3 block text-sm font-semibold not-italic tracking-widest text-terracota-dk">
                 — Isaías 6:8
@@ -125,10 +156,10 @@ export default function Story() {
             </motion.blockquote>
 
             <motion.p variants={fadeUp}>
-              Eu não vou porque sou forte. Vou porque{" "}
-              <strong>Aquele que me chamou é fiel</strong>. E porque sei que,
-              quando Deus convoca, Ele também sustenta — muitas vezes através
-              das mãos do Seu povo.
+              Não sou autoconfiante; na verdade, sou bem hesitante. Não acho
+              que estou pronta, mas desejo trilhar o caminho proposto por
+              <strong> Aquele que me chamou e é fiel para concluir a obra que
+              iniciou</strong>.
             </motion.p>
           </motion.div>
         </div>

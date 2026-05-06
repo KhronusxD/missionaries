@@ -6,7 +6,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 export const metadata: Metadata = {
   title: "Raízes do Sertão — Miriam Arruda, Missionária em Mossoró",
   description:
-    "De Manaus para Mossoró em 24 de maio. Sustente essa missão no coração do semiárido nordestino. Seja um mantenedor fixo.",
+    "De Manaus para Mossoró em junho. Sustente essa missão no coração do semiárido nordestino. Seja um mantenedor fixo.",
   openGraph: {
     title: "Raízes do Sertão — Miriam Arruda",
     description:
@@ -79,7 +79,7 @@ export default function RootLayout({
         </svg>
 
         <SmoothScroll>{children}</SmoothScroll>
-        <FloatingWhatsApp phone="5500000000000" />
+        <FloatingWhatsApp phone="5592984455300" />
       </body>
     </html>
   );

@@ -178,7 +178,7 @@ export default function Sustento() {
           </div>
 
           <a
-            href={`https://wa.me/5500000000000?text=${waMsg}`}
+            href={`https://wa.me/5592984455300?text=${waMsg}`}
             target="_blank"
             rel="noopener"
             className="group flex w-full items-center justify-center gap-3 border-2 border-ink bg-ochre px-8 py-5 text-center font-[var(--font-serif)] text-base font-bold uppercase tracking-wider text-ink shadow-[0_5px_0_#a6371a] transition-all hover:-translate-y-0.5 hover:bg-[#ffbe2a] hover:shadow-[0_7px_0_#a6371a] active:translate-y-1 active:shadow-[0_1px_0_#a6371a] md:text-lg"
@@ -276,7 +276,7 @@ export default function Sustento() {
           </p>
 
           <a
-            href="https://wa.me/5500000000000?text=Oi%20Miriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
+            href="https://wa.me/5592984455300?text=Oi%20Miriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
             target="_blank"
             rel="noopener"
             className="mt-6 flex w-full items-center justify-center gap-2 border-2 border-[#128c3f] bg-[#25d366] px-6 py-4 text-center font-bold uppercase tracking-wider text-white shadow-[0_4px_0_#128c3f] transition-all hover:-translate-y-0.5 hover:bg-[#2fe373] hover:shadow-[0_6px_0_#128c3f]"

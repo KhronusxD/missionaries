@@ -6,9 +6,21 @@ import { fadeUp } from "@/lib/variants";
 
 /* Edite as legendas livremente — elas aparecem escritas à mão sob cada foto */
 const PHOTOS = [
-  { src: "/fotos/IMG_1318.jpg", caption: "Antes da partida", rotate: -3 },
-  { src: "/fotos/IMG_1367.jpg", caption: "O chamado", rotate: 2 },
-  { src: "/fotos/IMG_3718.jpg", caption: "No caminho", rotate: -1.5 },
+  {
+    src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03.jpeg",
+    caption: "Antes da partida",
+    rotate: -3,
+  },
+  {
+    src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03 (1).jpeg",
+    caption: "O chamado",
+    rotate: 2,
+  },
+  {
+    src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.04.jpeg",
+    caption: "No caminho",
+    rotate: -1.5,
+  },
 ];
 
 export default function Mural() {

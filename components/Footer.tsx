@@ -16,12 +16,12 @@ export default function Footer() {
           Missionária em Mossoró/RN
         </p>
         <p className="mt-3 text-sm text-kraft-shade">
-          Enviada por <strong>[nome da igreja/ministério]</strong>
+          Enviada pela <strong>Missão Paixão e Compaixão</strong>
         </p>
 
         <div className="mt-6 flex items-center justify-center gap-3 text-sm">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5592984455300"
             target="_blank"
             rel="noopener"
             className="border-b border-ochre/30 pb-0.5 font-semibold text-ochre transition-colors hover:border-ochre"
@@ -30,12 +30,12 @@ export default function Footer() {
           </a>
           <span className="text-kraft-shade">·</span>
           <a
-            href="https://instagram.com/miriamarruda"
+            href="https://instagram.com/mi.arruda_"
             target="_blank"
             rel="noopener"
             className="border-b border-ochre/30 pb-0.5 font-semibold text-ochre transition-colors hover:border-ochre"
           >
-            Instagram
+            @mi.arruda_
           </a>
         </div>
 

@@ -33,7 +33,7 @@ export default function Prayer() {
         `Nome: ${nome}\nWhatsApp: ${whatsapp}\nE-mail: ${email}\n\n` +
         `Pode me incluir na sua lista? 🙏`,
     );
-    window.open(`https://wa.me/5500000000000?text=${msg}`, "_blank");
+    window.open(`https://wa.me/5592984455300?text=${msg}`, "_blank");
     e.currentTarget.reset();
     setShowForm(false);
   };
@@ -106,7 +106,7 @@ export default function Prayer() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="mx-auto mb-12 max-w-lg space-y-3 text-left"
+          className="mx-auto mb-10 max-w-lg space-y-3 text-left"
         >
           {PRAYER_POINTS.map((p, i) => (
             <motion.li
@@ -119,6 +119,23 @@ export default function Prayer() {
             </motion.li>
           ))}
         </motion.ul>
+
+        <motion.blockquote
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="mx-auto mb-12 max-w-xl border-l-4 border-ochre bg-kraft-deep px-6 py-5 text-left italic text-ink-soft shadow-[4px_4px_0_rgba(45,24,16,0.1)]"
+        >
+          <p className="text-[1.05rem] leading-[1.6]">
+            &ldquo;Finalmente, irmãos, orem por nós, para que a palavra do
+            Senhor se propague e seja glorificada, como aconteceu entre
+            vocês.&rdquo;
+          </p>
+          <cite className="mt-3 block text-sm font-semibold not-italic tracking-widest text-terracota-dk">
+            — 2 Tessalonicenses 3:1
+          </cite>
+        </motion.blockquote>
 
         {!showForm ? (
           <motion.button

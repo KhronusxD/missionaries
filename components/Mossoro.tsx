@@ -50,9 +50,11 @@ export default function Mossoro() {
         >
           <motion.p variants={fadeUp}>
             Mossoró é a segunda maior cidade do Rio Grande do Norte, no coração
-            do semiárido nordestino. Uma terra <em>seca por fora</em>, e muitas
-            vezes <em>seca também por dentro</em> — onde milhares de vidas ainda
-            não conhecem o evangelho vivo de Jesus Cristo.
+            do semiárido nordestino. Uma terra <em>seca por fora</em> e, muitas
+            vezes, <em>seca por dentro</em> — onde milhares ainda não conhecem
+            o evangelho completo de Jesus Cristo. Mas é também um lugar onde
+            Ele tem levantado uma igreja, como Betânia, e deseja encontrar Seus
+            amigos — e, creio, de onde fluirá água viva para outras regiões.
           </motion.p>
 
           <motion.div
@@ -62,24 +64,17 @@ export default function Mossoro() {
             <p className="mb-2 font-[var(--font-display)] text-sm uppercase tracking-[0.12em] text-terracota-dk">
               O campo de atuação
             </p>
-            <p className="italic text-ink-soft">
-              [Descrever aqui o campo específico: plantação de igreja, trabalho
-              com crianças, mulheres, discipulado, apoio a uma igreja local já
-              existente. Este trecho é crucial — personalize com a realidade do
-              ministério.]
+            <p className="text-ink-soft">
+              Estarei me unindo aos meus irmãos, o{" "}
+              <strong>pastor Felipe e a Tamyres</strong>, líderes da{" "}
+              <strong>base Íris Mossoró</strong>, servindo na plantação da{" "}
+              <strong>Igreja de Jesus</strong> e no discipulado de crianças e
+              mulheres.
+            </p>
+            <p className="mt-3 text-sm italic text-ink-soft/80">
+              [Instagram da base — a inserir]
             </p>
           </motion.div>
-
-          <motion.p
-            variants={fadeUp}
-            className="text-xl font-semibold leading-[1.5] text-ink md:text-2xl"
-          >
-            Vou para lá para{" "}
-            <strong className="text-terracota-dk">
-              [resumir a missão em uma frase de impacto]
-            </strong>
-            .
-          </motion.p>
 
           <motion.div
             variants={fadeUp}

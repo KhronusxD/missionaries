@@ -93,7 +93,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="mb-6 inline-block border border-ochre/60 bg-ink/30 px-4 py-2 text-[11px] font-medium uppercase italic tracking-[0.2em] text-ochre backdrop-blur-sm md:text-xs"
         >
-          De Manaus para Mossoró &nbsp;·&nbsp; Partida em 24 de maio
+          De Manaus para Mossoró &nbsp;·&nbsp; Partida em Junho
         </motion.p>
 
         {/* Title */}
@@ -127,11 +127,12 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.85 }}
           className="mt-8 max-w-2xl text-base leading-relaxed text-cream/95 md:text-lg"
         >
-          No dia <strong className="text-ochre">24 de maio</strong>, deixo minha casa,
-          minha família e o que me é familiar para servir como missionária em
-          Mossoró. Não vou sozinha — vou sustentada por Cristo e pela igreja que
-          Ele levanta ao meu redor.{" "}
-          <strong className="text-ochre">Você pode ser parte disso.</strong>
+          No dia <strong className="text-ochre">__ de junho</strong>, inicio uma
+          nova etapa na minha jornada. Deixo minha casa e minha família para
+          servir como missionária em Mossoró. Acredito que não vou sozinha —
+          serei sustentada por Cristo e pela igreja que Ele levanta ao meu
+          redor.{" "}
+          <strong className="text-ochre">Você pode fazer parte disso!</strong>
         </motion.p>
 
         {/* CTAs */}
