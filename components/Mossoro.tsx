@@ -72,7 +72,15 @@ export default function Mossoro() {
               mulheres.
             </p>
             <p className="mt-3 text-sm italic text-ink-soft/80">
-              [Instagram da base — a inserir]
+              Conheça a base:{" "}
+              <a
+                href="https://instagram.com/irismossoro"
+                target="_blank"
+                rel="noopener"
+                className="not-italic font-semibold text-terracota-dk underline decoration-ochre decoration-2 underline-offset-4 hover:text-terracota"
+              >
+                @irismossoro
+              </a>
             </p>
           </motion.div>
 
