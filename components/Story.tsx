@@ -42,16 +42,14 @@ export default function Story() {
             className="relative md:sticky md:top-24 md:self-start"
           >
             <div className="relative aspect-[4/5] overflow-hidden border-[3px] border-ink bg-kraft-deep shadow-[8px_8px_0_#a6371a]">
-              <div className="absolute inset-0" style={{ filter: "url(#rough-edge)" }}>
-                <Image
-                  src="/fotos-2/WhatsApp Image 2026-05-07 at 19.05.19.jpeg"
-                  alt="Miriam Arruda"
-                  fill
-                  priority
-                  sizes="(max-width: 768px) 90vw, 40vw"
-                  className="object-cover object-center"
-                />
-              </div>
+              <Image
+                src="/fotos-2/WhatsApp Image 2026-05-07 at 19.05.19.jpeg"
+                alt="Miriam Arruda"
+                fill
+                priority
+                sizes="(max-width: 768px) 90vw, 40vw"
+                className="object-cover object-center"
+              />
               {/* Grain + halftone — vibe impressão antiga */}
               <div className="paper-grain pointer-events-none absolute inset-0 opacity-35 mix-blend-multiply" />
               <div className="halftone-dots pointer-events-none absolute inset-0 opacity-[0.08] mix-blend-multiply" />

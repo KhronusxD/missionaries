@@ -119,7 +119,6 @@ function Polaroid({
 
       <div
         className="relative aspect-[4/3] w-full overflow-hidden bg-kraft-deep"
-        style={{ filter: "url(#rough-edge)" }}
       >
         <Image
           src={src}

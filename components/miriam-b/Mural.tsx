@@ -100,10 +100,7 @@ function Polaroid({
         }}
       />
 
-      <div
-        className="relative aspect-[4/3] w-full overflow-hidden bg-kraft-deep"
-        style={{ filter: "url(#rough-edge)" }}
-      >
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-kraft-deep">
         <Image
           src={src}
           alt="Foto da Miriam"

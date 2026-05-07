@@ -23,7 +23,7 @@ const TIERS: Tier[] = [
   { value: 200, label: "R$ 200", emoji: "💜" },
 ];
 
-const META = 2500;
+const META = 5000;
 const RAISED = 0;
 const MANTENEDORES = 0;
 
@@ -101,6 +101,20 @@ export default function SustentoB() {
           obreiros para deixá-los sozinhos — Ele chama a Igreja inteira para a
           obra.{" "}
           <strong className="text-ochre">Sua parte importa.</strong>
+        </motion.p>
+
+        <motion.p
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="mx-auto mt-5 max-w-2xl text-center text-base leading-relaxed text-cream/85 md:text-lg"
+        >
+          São duas frentes:{" "}
+          <strong className="text-ochre">R$ 5.000 únicos</strong> para a ida —
+          passagem, cama, guarda-roupa, ventilador e o básico — e{" "}
+          <strong className="text-ochre">R$ 2.500 por mês</strong> para o
+          custo de vida em Mossoró.
         </motion.p>
 
         <ProgressMeter
@@ -188,10 +202,10 @@ export default function SustentoB() {
           </div>
 
           <p className="mb-8 text-[1.05rem] leading-[1.7]">
-            Para os custos da ida —{" "}
-            <strong>passagem, mudança, estrutura inicial, documentação</strong>{" "}
-            e os primeiros dias no campo —, qualquer valor único também é uma
-            bênção e me ajuda a começar com o pé direito.
+            Para a ida —{" "}
+            <strong>passagem, cama, guarda-roupa, ventilador</strong>{" "}
+            e o básico para começar —, qualquer valor único é uma
+            bênção e me ajuda a chegar lá.
           </p>
 
           <a
@@ -298,7 +312,7 @@ function ProgressMeter({
       <div className="mb-4 flex flex-wrap items-baseline justify-between gap-3">
         <div>
           <p className="font-[var(--font-display)] text-xs uppercase tracking-[0.15em] text-ochre">
-            Meta mensal
+            Meta inicial
           </p>
           <p className="font-[var(--font-display)] text-3xl text-kraft md:text-4xl">
             <AnimatedNumber value={raised} active={active} prefix="R$ " />

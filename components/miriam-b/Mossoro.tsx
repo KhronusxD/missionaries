@@ -74,17 +74,6 @@ export default function MossoroB() {
               [Instagram da base — a inserir]
             </p>
           </motion.div>
-
-          <motion.div
-            variants={fadeUp}
-            className="mt-10 inline-flex flex-wrap justify-center gap-4 border-[3px] border-double border-terracota-dk bg-kraft px-9 py-5 font-[var(--font-display)] text-base tracking-[0.08em] text-terracota-dk shadow-[5px_5px_0_#1e4769] md:text-xl"
-          >
-            <span>Não é turismo.</span>
-            <span className="text-ochre">·</span>
-            <span>Não é fase.</span>
-            <span className="text-ochre">·</span>
-            <span className="text-terracota">É chamado.</span>
-          </motion.div>
         </motion.div>
       </div>
     </section>
