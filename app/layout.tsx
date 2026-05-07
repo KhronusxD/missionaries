@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import MusicPlayer from "@/components/MusicPlayer";
 
 export const metadata: Metadata = {
   title: "Raízes do Sertão — Miriam Arruda, Missionária em Mossoró",
@@ -79,6 +80,7 @@ export default function RootLayout({
         </svg>
 
         <SmoothScroll>{children}</SmoothScroll>
+        <MusicPlayer />
         <FloatingWhatsApp phone="5592984455300" />
       </body>
     </html>

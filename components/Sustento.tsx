@@ -169,15 +169,6 @@ export default function Sustento() {
             />
           </div>
 
-          <div className="mb-8 border-2 border-ink bg-terracota px-6 py-5 text-center text-cream">
-            <p className="text-base leading-snug md:text-lg">
-              🙌 <strong className="text-xl text-ochre">50 mantenedores</strong>{" "}
-              de R$ 50 já fecham a meta.
-              <br />
-              Pode ser você um deles?
-            </p>
-          </div>
-
           <a
             href={`https://wa.me/5592984455300?text=${waMsg}`}
             target="_blank"
