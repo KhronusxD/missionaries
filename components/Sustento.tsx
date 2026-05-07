@@ -9,6 +9,7 @@ import {
 } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { fadeUp, stagger } from "@/lib/variants";
+import TierIcon from "@/components/ornaments/TierIcon";
 
 type Tier = {
   value: number;
@@ -49,7 +50,7 @@ export default function Sustento() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("chave-pix-da-miriam@email.com");
+      await navigator.clipboard.writeText("92984455300");
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {}
@@ -245,7 +246,7 @@ export default function Sustento() {
               </span>
               <div className="flex items-center justify-between gap-3">
                 <code className="truncate font-mono font-semibold">
-                  [chave a ser inserida]
+                  92984455300
                 </code>
                 <button
                   onClick={handleCopy}
@@ -265,7 +266,7 @@ export default function Sustento() {
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 Banco
               </span>
-              <span>[banco]</span>
+              <span>Mercado Pago</span>
             </div>
           </div>
 
@@ -412,7 +413,7 @@ function TierOption({
           : "border-ink bg-cream shadow-[3px_3px_0_rgba(45,24,16,0.15)] hover:-translate-y-0.5 hover:shadow-[5px_5px_0_#c94a1f]"
       }`}
     >
-      <span className="text-2xl">{tier.emoji}</span>
+      <TierIcon value={tier.value} />
       <span
         className={`font-[var(--font-display)] leading-none ${
           custom ? "text-base" : "text-xl"

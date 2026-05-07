@@ -56,15 +56,6 @@ export default function Prayer() {
           🙏
         </motion.div>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
-          className="mb-3 text-xs uppercase italic tracking-[0.28em] text-terracota"
-        >
-          Mais que dinheiro
-        </motion.p>
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -146,7 +137,7 @@ export default function Prayer() {
             onClick={() => setShowForm(true)}
             className="group inline-flex items-center gap-3 border-2 border-ink bg-ochre px-8 py-4 font-bold uppercase tracking-wider text-ink shadow-[0_5px_0_#a6371a] transition-all hover:-translate-y-0.5 hover:bg-[#ffbe2a] hover:shadow-[0_7px_0_#a6371a]"
           >
-            Quero receber as atualizações e orar por Miriam
+            Quero receber as atualizações
             <span className="transition-transform group-hover:translate-x-1">
               →
             </span>

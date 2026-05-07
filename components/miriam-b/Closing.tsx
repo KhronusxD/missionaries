@@ -61,7 +61,9 @@ export default function ClosingB() {
         </motion.blockquote>
 
         <motion.a
-          href="#oracao"
+          href="https://chat.whatsapp.com/ESSLu9xpztv195esz9rDyY?mode=gi_t"
+          target="_blank"
+          rel="noopener"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

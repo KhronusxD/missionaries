@@ -75,17 +75,6 @@ export default function MossoroB() {
               alcançando vidas onde o nome de Jesus ainda precisa ser ouvido.
             </p>
           </motion.div>
-
-          <motion.p
-            variants={fadeUp}
-            className="text-xl font-semibold leading-[1.5] text-ink md:text-2xl"
-          >
-            Vou para lá para{" "}
-            <strong className="text-terracota-dk">
-              [resumir a missão em uma frase de impacto]
-            </strong>
-            .
-          </motion.p>
         </motion.div>
       </div>
     </section>

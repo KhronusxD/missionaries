@@ -39,7 +39,7 @@ export default function Story() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
-            className="relative"
+            className="relative md:sticky md:top-24 md:self-start"
           >
             <div className="relative aspect-[4/5] overflow-hidden border-[3px] border-ink bg-kraft-deep shadow-[8px_8px_0_#a6371a]">
               <div className="absolute inset-0" style={{ filter: "url(#rough-edge)" }}>

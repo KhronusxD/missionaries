@@ -9,6 +9,7 @@ import {
 } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { fadeUp, stagger } from "@/lib/variants";
+import TierIcon from "@/components/ornaments/TierIcon";
 
 type Tier = {
   value: number;
@@ -47,7 +48,7 @@ export default function SustentoB() {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("chave-pix-da-miriam@email.com");
+      await navigator.clipboard.writeText("92984455300");
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {}
@@ -158,7 +159,7 @@ export default function SustentoB() {
           </div>
 
           <a
-            href={`https://wa.me/5500000000000?text=${waMsg}`}
+            href={`https://wa.me/5592984455300?text=${waMsg}`}
             target="_blank"
             rel="noopener"
             className="group flex w-full items-center justify-center gap-3 border-2 border-ink bg-ochre px-8 py-5 text-center font-[var(--font-serif)] text-base font-bold uppercase tracking-wider text-ink shadow-[0_5px_0_#a6371a] transition-all hover:-translate-y-0.5 hover:bg-[#ffbe2a] hover:shadow-[0_7px_0_#a6371a] active:translate-y-1 active:shadow-[0_1px_0_#a6371a] md:text-lg"
@@ -223,7 +224,7 @@ export default function SustentoB() {
               </span>
               <div className="flex items-center justify-between gap-3">
                 <code className="truncate font-mono font-semibold">
-                  [chave a ser inserida]
+                  92984455300
                 </code>
                 <button
                   onClick={handleCopy}
@@ -243,7 +244,7 @@ export default function SustentoB() {
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 Banco
               </span>
-              <span>[banco]</span>
+              <span>Mercado Pago</span>
             </div>
           </div>
 
@@ -254,7 +255,7 @@ export default function SustentoB() {
           </p>
 
           <a
-            href="https://wa.me/5500000000000?text=Oi%20Miriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
+            href="https://wa.me/5592984455300?text=Oi%20Miriam%2C%20acabei%20de%20contribuir%20com%20a%20miss%C3%A3o!%20Segue%20o%20comprovante%20em%20anexo."
             target="_blank"
             rel="noopener"
             className="mt-6 flex w-full items-center justify-center gap-2 border-2 border-[#128c3f] bg-[#25d366] px-6 py-4 text-center font-bold uppercase tracking-wider text-white shadow-[0_4px_0_#128c3f] transition-all hover:-translate-y-0.5 hover:bg-[#2fe373] hover:shadow-[0_6px_0_#128c3f]"
@@ -388,7 +389,7 @@ function TierOption({
           : "border-ink bg-cream shadow-[3px_3px_0_rgba(45,24,16,0.15)] hover:-translate-y-0.5 hover:shadow-[5px_5px_0_#c94a1f]"
       }`}
     >
-      <span className="text-2xl">{tier.emoji}</span>
+      <TierIcon value={tier.value} />
       <span
         className={`font-[var(--font-display)] leading-none ${
           custom ? "text-base" : "text-xl"

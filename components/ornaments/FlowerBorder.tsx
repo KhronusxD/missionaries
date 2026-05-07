@@ -58,9 +58,6 @@ export default function FlowerBorder({
       className={`relative flex items-center overflow-hidden bg-blue-deep ${className}`}
       style={{ height: 72 }}
     >
-      {/* Grão de papel sobre o azul profundo */}
-      <div className="paper-grain-heavy absolute inset-0 opacity-50" />
-
       {/* Barras finas terracota topo e base — como no cartaz */}
       <div className="absolute inset-x-0 top-0 h-[3px] bg-terracota-dk" />
       <div className="absolute inset-x-0 top-[4px] h-px bg-ochre/40" />
