@@ -5,9 +5,9 @@ import { motion } from "motion/react";
 import { fadeUp } from "@/lib/variants";
 
 const PHOTOS = [
-  { src: "/fotos/IMG_1318.jpg", rotate: -3 },
-  { src: "/fotos/IMG_1367.jpg", rotate: 2 },
-  { src: "/fotos/IMG_3718.jpg", rotate: -1.5 },
+  { src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03.jpeg", rotate: -3 },
+  { src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03 (1).jpeg", rotate: 2 },
+  { src: "/fotos-2/WhatsApp Image 2026-04-23 at 14.08.04.jpeg", rotate: -1.5 },
 ];
 
 export default function MuralB() {

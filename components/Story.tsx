@@ -44,7 +44,7 @@ export default function Story() {
             <div className="relative aspect-[4/5] overflow-hidden border-[3px] border-ink bg-kraft-deep shadow-[8px_8px_0_#a6371a]">
               <div className="absolute inset-0" style={{ filter: "url(#rough-edge)" }}>
                 <Image
-                  src="/fotos-2/WhatsApp Image 2026-04-23 at 14.08.03 (2).jpeg"
+                  src="/fotos-2/WhatsApp Image 2026-05-07 at 19.05.19.jpeg"
                   alt="Miriam Arruda"
                   fill
                   priority

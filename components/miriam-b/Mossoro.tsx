@@ -49,9 +49,11 @@ export default function MossoroB() {
         >
           <motion.p variants={fadeUp}>
             Mossoró é a segunda maior cidade do Rio Grande do Norte, no coração
-            do semiárido nordestino. Uma terra <em>seca por fora</em>, e muitas
-            vezes <em>seca também por dentro</em> — onde milhares de vidas ainda
-            não conhecem o evangelho vivo de Jesus Cristo.
+            do semiárido nordestino. Uma terra <em>seca por fora</em> e, muitas
+            vezes, <em>seca por dentro</em> — onde milhares ainda não conhecem
+            o evangelho completo de Jesus Cristo. Mas é também um lugar onde
+            Ele tem levantado uma igreja, como Betânia, e deseja encontrar Seus
+            amigos — e, creio, de onde fluirá água viva para outras regiões.
           </motion.p>
 
           <motion.div
@@ -61,19 +63,27 @@ export default function MossoroB() {
             <p className="mb-2 font-[var(--font-display)] text-sm uppercase tracking-[0.12em] text-terracota-dk">
               O campo de atuação
             </p>
-            <p className="leading-[1.7] text-ink-soft">
-              Vou servir junto à{" "}
-              <a
-                href="https://instagram.com/irismossoro"
-                target="_blank"
-                rel="noopener"
-                className="font-semibold text-terracota-dk underline decoration-ochre decoration-2 underline-offset-4 hover:text-terracota"
-              >
-                Íris Mossoró (@irismossoro)
-              </a>{" "}
-              — uma comunidade que vive o evangelho no semiárido potiguar,
-              alcançando vidas onde o nome de Jesus ainda precisa ser ouvido.
+            <p className="text-ink-soft">
+              Estarei me unindo aos meus irmãos, o{" "}
+              <strong>pastor Felipe e a Tamyres</strong>, líderes da{" "}
+              <strong>base Íris Mossoró</strong>, servindo na plantação da{" "}
+              <strong>Igreja de Jesus</strong> e no discipulado de crianças e
+              mulheres.
             </p>
+            <p className="mt-3 text-sm italic text-ink-soft/80">
+              [Instagram da base — a inserir]
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            className="mt-10 inline-flex flex-wrap justify-center gap-4 border-[3px] border-double border-terracota-dk bg-kraft px-9 py-5 font-[var(--font-display)] text-base tracking-[0.08em] text-terracota-dk shadow-[5px_5px_0_#1e4769] md:text-xl"
+          >
+            <span>Não é turismo.</span>
+            <span className="text-ochre">·</span>
+            <span>Não é fase.</span>
+            <span className="text-ochre">·</span>
+            <span className="text-terracota">É chamado.</span>
           </motion.div>
         </motion.div>
       </div>

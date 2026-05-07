@@ -218,11 +218,11 @@ export default function SustentoB() {
           </h3>
 
           <div className="mx-auto grid max-w-md gap-3 text-left">
-            <div className="grid grid-cols-[90px_1fr] items-center gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
+            <div className="grid grid-cols-[78px_minmax(0,1fr)] items-center gap-3 sm:grid-cols-[90px_minmax(0,1fr)] sm:gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 PIX
               </span>
-              <div className="flex items-center justify-between gap-3">
+              <div className="flex min-w-0 items-center justify-between gap-3">
                 <code className="truncate font-mono font-semibold">
                   92984455300
                 </code>
@@ -234,13 +234,13 @@ export default function SustentoB() {
                 </button>
               </div>
             </div>
-            <div className="grid grid-cols-[90px_1fr] items-center gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
+            <div className="grid grid-cols-[78px_minmax(0,1fr)] items-center gap-3 sm:grid-cols-[90px_minmax(0,1fr)] sm:gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 Nome
               </span>
               <span>Miriam Arruda</span>
             </div>
-            <div className="grid grid-cols-[90px_1fr] items-center gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
+            <div className="grid grid-cols-[78px_minmax(0,1fr)] items-center gap-3 sm:grid-cols-[90px_minmax(0,1fr)] sm:gap-4 border-[1.5px] border-ink bg-cream px-4 py-3">
               <span className="font-[var(--font-display)] text-xs uppercase tracking-[0.08em] text-terracota-dk">
                 Banco
               </span>
