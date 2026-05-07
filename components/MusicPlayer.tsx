@@ -9,24 +9,18 @@ const TRACK = {
   artist: "Ana Heloysa & Daniel Alves",
 };
 
-const STORAGE_KEY = "miriam-music-muted";
-
 export default function MusicPlayer() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [needsInteraction, setNeedsInteraction] = useState(false);
   const [expanded, setExpanded] = useState(false);
 
-  // Tenta autoplay; se o browser bloquear, espera primeira interação
+  // Sempre tenta autoplay; se o browser bloquear, espera primeira interação
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
     audio.volume = 0.45;
-
-    // Respeita preferência salva do usuário
-    const userMuted = localStorage.getItem(STORAGE_KEY) === "true";
-    if (userMuted) return;
 
     let cleanup: (() => void) | null = null;
 
@@ -63,13 +57,11 @@ export default function MusicPlayer() {
     if (playing) {
       audio.pause();
       setPlaying(false);
-      localStorage.setItem(STORAGE_KEY, "true");
     } else {
       try {
         await audio.play();
         setPlaying(true);
         setNeedsInteraction(false);
-        localStorage.setItem(STORAGE_KEY, "false");
       } catch {}
     }
   };
